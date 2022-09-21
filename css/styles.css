@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* body{
+    height: 100vh;
+} */
+header {
+  background-color: #ffcc00;
+  /* height: 10vh; */
+}
+.mtn {
+  display: flex;
+  margin-left: 7rem;
+  padding: 6px;
+  align-items: center;
+}
+main {
+  background-image: url(/images/background.png);
+  height: 80vh;
+}
+.upper {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.4rem;
+}
+.upper h4 {
+  margin-top: 1rem;
+}
+.side {
+  background-color: white;
+  display: inline-block;
+  margin-left: 7rem;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 35vh;
+}
+.login {
+  background-color: #ffcc00;
+  padding: 1.2rem;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  text-align: center;
+}
+form {
+  padding: 1.2rem;
+}
+input {
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+/* .proceed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+} */
+.side p {
+  text-align: center;
+  background-color: #ffcc00;
+  border-radius: 20px;
+  padding: 0.5rem;
+  width: 70%;
+  margin-left: 1.6rem;
+}
+.center {
+  /* /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  color: white;
+  text-align: center;
+}
+.center span {
+  font-weight: 100;
+}
+.service {
+  background-color: #c5c5c5;
+  text-align: center;
+  height: 10vh;
+}
